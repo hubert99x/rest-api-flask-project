@@ -13,6 +13,17 @@ Projekt REST API napisany w Pythonie z użyciem frameworka **Flask**. Aplikacja 
 
 ---
 
+## 📡 Endpointy API
+
+| Endpoint            | Metoda | Opis                                  |
+|---------------------|--------|----------------------------------------|
+| `/`                 | GET    | Strona powitalna                      |
+| `/mojastrona`       | GET    | Zwraca tekst: "To jest moja strona!" |
+| `/hello`            | GET    | Wita użytkownika (?name=Imię)         |
+| `/api/v1.0/predict` | GET    | Zwraca predykcję na podstawie dwóch liczb (?num1=&num2=) |
+
+---
+
 ## 🚀 Uruchomienie lokalne (Python)
 
 ### 🔽 Sklonuj repozytorium:
