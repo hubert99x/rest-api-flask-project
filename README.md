@@ -22,12 +22,12 @@ The application exposes a few endpoints and a basic decision logic based on the 
 
 ## 📡 API Endpoints
 
-| Endpoint            | Method | Description                                                |
-|---------------------|--------|------------------------------------------------------------|
-| `/`                 | GET    | Welcome page                                               |
-| `/mojastrona`       | GET    | Returns: "To jest moja strona!" (demo route)                   |
-| `/hello`            | GET    | Greets user, supports `?name=` parameter                   |
-| `/api/v1.0/predict` | GET    | Returns prediction based on two input numbers (?num1=&num2=) |
+| Endpoint                          | Method | Description                                                        |
+|-----------------------------------|--------|--------------------------------------------------------------------|
+| `/`                               | GET    | Welcome page                                                       |
+| `/mojastrona`                     | GET    | Returns: "To jest moja strona!" (demo route)                       |
+| `/hello`                          | GET    | Greets user, supports `?name=` parameter                           |
+| `/api/v1.0/predict?num1=3&num2=4` | GET    | Returns prediction based on two input numbers e.g.(?num1=3&num2=4) |
 
 ---
 
@@ -133,12 +133,12 @@ Prosty projekt REST API napisany w Pythonie z użyciem frameworka **Flask**. Apl
 
 ## 📡 Endpointy API
 
-| Endpoint            | Metoda | Opis                                  |
-|---------------------|--------|----------------------------------------|
-| `/`                 | GET    | Strona powitalna                      |
-| `/mojastrona`       | GET    | Zwraca tekst: "To jest moja strona!" |
-| `/hello`            | GET    | Wita użytkownika (?name=Imię)         |
-| `/api/v1.0/predict` | GET    | Zwraca predykcję na podstawie dwóch liczb (?num1=&num2=) |
+| Endpoint                          | Metoda | Opis                                                           |
+|-----------------------------------|--------|----------------------------------------------------------------|
+| `/`                               | GET    | Strona powitalna                                               |
+| `/mojastrona`                     | GET    | Zwraca tekst: "To jest moja strona!"                           |
+| `/hello`                          | GET    | Wita użytkownika (?name=Imię)                                  |
+| `/api/v1.0/predict?num1=3&num2=4` | GET    | Zwraca predykcję na podstawie dwóch liczb np. (?num1=3&num2=4) |
 
 ---
 
