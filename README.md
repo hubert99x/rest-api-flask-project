@@ -15,7 +15,6 @@ The application exposes a few endpoints and a basic decision logic based on the 
 - `app.py` – Flask application source code  
 - `requirements.txt` – list of required Python packages  
 - `Dockerfile` – Docker container configuration  
-- `.gitignore` – ignores `.venv` and unnecessary files  
 
 ---
 
@@ -117,7 +116,6 @@ Prosty projekt REST API napisany w Pythonie z użyciem frameworka **Flask**. Apl
 - `app.py` – kod aplikacji Flask
 - `requirements.txt` – lista zależności Pythona
 - `Dockerfile` – plik konfiguracyjny do uruchomienia aplikacji w kontenerze Docker
-- `.gitignore` – ignorowanie `.venv` i innych niepotrzebnych plików
 
 ---
 
