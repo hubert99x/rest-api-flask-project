@@ -23,7 +23,7 @@ The application exposes a few endpoints and a basic decision logic based on the 
 | Endpoint            | Method | Description                                                |
 |---------------------|--------|------------------------------------------------------------|
 | `/`                 | GET    | Welcome page                                               |
-| `/mojastrona`       | GET    | Returns: "This is my page!" (demo route)                   |
+| `/mojastrona`       | GET    | Returns: "To jest moja strona!" (demo route)                   |
 | `/hello`            | GET    | Greets user, supports `?name=` parameter                   |
 | `/api/v1.0/predict` | GET    | Returns prediction based on two input numbers (?num1=&num2=) |
 
