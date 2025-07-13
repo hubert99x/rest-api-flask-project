@@ -12,9 +12,11 @@ The application exposes a few endpoints and a basic decision logic based on the 
 
 ## 📁 Repository Contents
 
-- `app.py` – Flask application source code  
-- `requirements.txt` – list of required Python packages  
-- `Dockerfile` – Docker container configuration  
+- `app.py` - Flask application source code  
+- `requirements.txt` - list of required packages  
+- `Dockerfile` - Docker container configuration
+- `Lab2.ipynb` - Jupyter notebook
+- `README.md` - Project documentation and run instructions
 
 ---
 
@@ -68,11 +70,18 @@ python app.py
 The app will be available at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
+## 🐳 Running with Docker
 
-## 🐳 Run with Docker
+### 🔧 Build the Docker image:
 
 ```bash
-docker build -t modelml .
+docker build --no-cache -t modelml .
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+```
+
+### ▶️ Run the container:
+
+```bash
 docker run -p 5001:5000 modelml
 ```
 
@@ -114,9 +123,12 @@ Prosty projekt REST API napisany w Pythonie z użyciem frameworka **Flask**. Apl
 
 ## 📁 Zawartość repozytorium
 
-- `app.py` – kod aplikacji Flask
-- `requirements.txt` – lista zależności Pythona
-- `Dockerfile` – plik konfiguracyjny do uruchomienia aplikacji w kontenerze Docker
+- `app.py` - kod aplikacji Flask
+- `requirements.txt` - lista zależności
+- `Dockerfile` - plik konfiguracyjny do uruchomienia aplikacji w kontenerze Docker
+- `Lab2.ipynb` - Jupyter notebook
+- `README.md` - Instrukcja uruchomienia
+
 
 ---
 
@@ -186,7 +198,8 @@ Aplikacja będzie dostępna pod adresem: [http://127.0.0.1:5000](http://127.0.0.
 ### 🔧 Zbuduj obraz Dockera:
 
 ```bash
-docker build -t modelml .
+docker build --no-cache -t modelml .
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ```
 
 ### ▶️ Uruchom kontener:
