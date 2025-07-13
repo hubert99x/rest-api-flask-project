@@ -51,6 +51,7 @@ source .venv/bin/activate
 
 #### Windows (Git Bash):
 ```bash
+python3 -m venv .venv
 source .venv/Scripts/activate
 ```
 
@@ -156,6 +157,7 @@ source .venv/bin/activate
 
 ##### Git Bash (na Windowsie):
 ```bash
+python3 -m venv .venv
 source .venv/Scripts/activate
 ```
 
