@@ -76,7 +76,6 @@ The app will be available at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ```bash
 docker build --no-cache -t modelml .
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ```
 
 ### ▶️ Run the container:
@@ -199,7 +198,6 @@ Aplikacja będzie dostępna pod adresem: [http://127.0.0.1:5000](http://127.0.0.
 
 ```bash
 docker build --no-cache -t modelml .
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ```
 
 ### ▶️ Uruchom kontener:
