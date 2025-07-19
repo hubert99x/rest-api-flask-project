@@ -81,10 +81,10 @@ docker build --no-cache -t modelml .
 ### ▶️ Run the container:
 
 ```bash
-docker run -p 5001:5000 modelml
+docker run -p 127.0.0.1:5001:5000 modelml
 ```
 
-Access the app at: [http://127.0.0.1:5001](http://127.0.0.1:5001)
+Access the app locally at: http://127.0.0.1:5001
 
 📌 If port `5001` is in use, you can change it (e.g. `-p 5002:5000`)
 
@@ -188,7 +188,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Aplikacja będzie dostępna pod adresem: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+Aplikacja będzie dostępna pod adresem: http://127.0.0.1:5001
 
 ---
 
@@ -203,7 +203,7 @@ docker build --no-cache -t modelml .
 ### ▶️ Uruchom kontener:
 
 ```bash
-docker run -p 5001:5000 modelml
+docker run -p 127.0.0.1:5001:5000 modelml
 ```
 
 Aplikacja będzie dostępna pod adresem: [http://127.0.0.1:5001](http://127.0.0.1:5001)
