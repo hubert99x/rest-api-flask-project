@@ -81,7 +81,7 @@ docker build --no-cache -t modelml .
 ### ▶️ Run the container:
 
 ```bash
-docker run --name Flask_REST_API-p 127.0.0.1:5001:5000 modelml
+docker run --name Flask_REST_API -p 127.0.0.1:5001:5000 modelml
 ```
 
 Access the app locally at: http://127.0.0.1:5001
@@ -203,7 +203,7 @@ docker build --no-cache -t modelml .
 ### ▶️ Uruchom kontener:
 
 ```bash
-docker run --name Flask_REST_API-p 127.0.0.1:5001:5000 modelml
+docker run --name Flask_REST_API -p 127.0.0.1:5001:5000 modelml
 ```
 
 Aplikacja będzie dostępna pod adresem: [http://127.0.0.1:5001](http://127.0.0.1:5001)
