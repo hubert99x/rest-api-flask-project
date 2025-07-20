@@ -13,9 +13,9 @@ The application exposes a few endpoints and a basic decision logic based on the 
 ## 📁 Repository Contents
 
 - `app.py` - Flask application source code  
-- `requirements.txt` - list of required packages  
+- `requirements.txt` - List of required packages  
 - `Dockerfile` - Docker container configuration
-- `Lab2.ipynb` - Jupyter notebook
+- `Lab2.ipynb` - Interactive notebook demonstrating REST API usage and test cases
 - `README.md` - Project documentation and run instructions
 
 ---
@@ -122,10 +122,10 @@ Prosty projekt REST API napisany w Pythonie z użyciem frameworka **Flask**. Apl
 
 ## 📁 Zawartość repozytorium
 
-- `app.py` - kod aplikacji Flask
-- `requirements.txt` - lista zależności
-- `Dockerfile` - plik konfiguracyjny do uruchomienia aplikacji w kontenerze Docker
-- `Lab2.ipynb` - Jupyter notebook
+- `app.py` - Kod aplikacji Flask
+- `requirements.txt` - Lista zależności
+- `Dockerfile` - Plik konfiguracyjny do uruchomienia aplikacji w kontenerze Docker
+- `Lab2.ipynb` - Interaktywny notatnik prezentujący użycie i testy REST API
 - `README.md` - Instrukcja uruchomienia
 
 
