@@ -1,7 +1,8 @@
----
 ⚠️ **Polska wersja poniżej ⬇️**  
 Polish version below – scroll down to read in Polish.
 ---
+
+<br>
 
 # 🧪 Flask REST API – Decision Model (Educational Project)
 
