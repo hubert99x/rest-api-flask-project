@@ -126,7 +126,7 @@ Prosty projekt REST API napisany w Pythonie z użyciem frameworka **Flask**. Apl
 - `requirements.txt` - Lista zależności
 - `Dockerfile` - Plik konfiguracyjny do uruchomienia aplikacji w kontenerze Docker
 - `Lab2.ipynb` - Interaktywny notatnik prezentujący użycie i testy REST API
-- `README.md` - Instrukcja uruchomienia
+- `README.md` - Instrukcja uruchomienia i opis projektu
 
 
 ---
